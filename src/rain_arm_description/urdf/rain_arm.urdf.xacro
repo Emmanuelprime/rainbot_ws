@@ -25,7 +25,7 @@
         <visual>
             <origin xyz="-0.39 -0.39 -0.56" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://rain_arm_description/meshes/-.STL" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://rain_arm_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
     </link>
