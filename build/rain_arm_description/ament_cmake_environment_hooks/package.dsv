@@ -1,0 +1,4 @@
+source;share/rain_arm_description/local_setup.bash
+source;share/rain_arm_description/local_setup.dsv
+source;share/rain_arm_description/local_setup.sh
+source;share/rain_arm_description/local_setup.zsh

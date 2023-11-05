@@ -1,0 +1,1 @@
+/home/emmanuel/rainbot_ws/build/rainbot_cpp/ament_cmake_core/rainbot_cppConfig-version.cmake

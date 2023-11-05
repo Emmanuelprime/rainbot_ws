@@ -1,0 +1,22 @@
+[1.403s] Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_py': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emmanuel/rainbot_ws/build/rainbot_py/build --no-deps install_data
+[1.796s] running develop
+[1.837s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.837s]   warnings.warn(
+[1.839s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.839s]   warnings.warn(
+[2.110s] running egg_info
+[2.110s] writing rainbot_py.egg-info/PKG-INFO
+[2.111s] writing dependency_links to rainbot_py.egg-info/dependency_links.txt
+[2.111s] writing entry points to rainbot_py.egg-info/entry_points.txt
+[2.111s] writing requirements to rainbot_py.egg-info/requires.txt
+[2.111s] writing top-level names to rainbot_py.egg-info/top_level.txt
+[2.114s] reading manifest file 'rainbot_py.egg-info/SOURCES.txt'
+[2.135s] writing manifest file 'rainbot_py.egg-info/SOURCES.txt'
+[2.138s] running build_ext
+[2.138s] Creating /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot-py.egg-link (link to .)
+[2.140s] Installing rain_publisher script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.140s] 
+[2.140s] Installed /home/emmanuel/rainbot_ws/build/rainbot_py
+[2.141s] running install_data
+[2.141s] copying package.xml -> /home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py
+[2.198s] Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_py' returned '0': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emmanuel/rainbot_ws/build/rainbot_py/build --no-deps install_data

@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/rainbot_py/rainbot_py.egg-info
+writing ../../build/rainbot_py/rainbot_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/rainbot_py/rainbot_py.egg-info/dependency_links.txt
+writing entry points to ../../build/rainbot_py/rainbot_py.egg-info/entry_points.txt
+writing requirements to ../../build/rainbot_py/rainbot_py.egg-info/requires.txt
+writing top-level names to ../../build/rainbot_py/rainbot_py.egg-info/top_level.txt
+writing manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/emmanuel/rainbot_ws/build/rainbot_py/build
+creating /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib
+creating /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py
+copying rainbot_py/__init__.py -> /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/__init__.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/emmanuel/rainbot_ws/install/rainbot_py/share/ament_index
+creating /home/emmanuel/rainbot_ws/install/rainbot_py/share/ament_index/resource_index
+creating /home/emmanuel/rainbot_ws/install/rainbot_py/share/ament_index/resource_index/packages
+copying resource/rainbot_py -> /home/emmanuel/rainbot_ws/install/rainbot_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py
+running install_egg_info
+Copying ../../build/rainbot_py/rainbot_py.egg-info to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/emmanuel/rainbot_ws/build/rainbot_py/install.log'

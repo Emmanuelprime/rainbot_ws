@@ -1,0 +1,4 @@
+source;share/rainbot_cpp/local_setup.bash
+source;share/rainbot_cpp/local_setup.dsv
+source;share/rainbot_cpp/local_setup.sh
+source;share/rainbot_cpp/local_setup.zsh

@@ -1,0 +1,6 @@
+Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/rainbot_ws/src/rainbot_cpp -DCMAKE_INSTALL_PREFIX=/home/emmanuel/rainbot_ws/install/rainbot_cpp
+Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmanuel/rainbot_ws/src/rainbot_cpp -DCMAKE_INSTALL_PREFIX=/home/emmanuel/rainbot_ws/install/rainbot_cpp
+Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp
+Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp

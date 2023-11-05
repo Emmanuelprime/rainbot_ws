@@ -1,0 +1,42 @@
+[0.288s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake /home/emmanuel/rainbot_ws/src/rain_arm_description -DCMAKE_INSTALL_PREFIX=/home/emmanuel/rainbot_ws/install/rain_arm_description
+[2.752s] -- The C compiler identification is GNU 11.4.0
+[3.263s] -- The CXX compiler identification is GNU 11.4.0
+[3.391s] -- Detecting C compiler ABI info
+[3.689s] -- Detecting C compiler ABI info - done
+[3.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.700s] -- Detecting C compile features
+[3.735s] -- Detecting C compile features - done
+[3.760s] -- Detecting CXX compiler ABI info
+[3.915s] -- Detecting CXX compiler ABI info - done
+[3.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.925s] -- Detecting CXX compile features
+[3.926s] -- Detecting CXX compile features - done
+[3.989s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.319s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.576s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.742s] -- Added test 'lint_cmake' to check CMake code style
+[4.744s] -- Added test 'xmllint' to check XML markup files
+[4.746s] -- Configuring done
+[4.750s] -- Generating done
+[4.751s] -- Build files have been written to: /home/emmanuel/rainbot_ws/build/rain_arm_description
+[4.758s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake /home/emmanuel/rainbot_ws/src/rain_arm_description -DCMAKE_INSTALL_PREFIX=/home/emmanuel/rainbot_ws/install/rain_arm_description
+[4.760s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[4.805s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[4.829s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description
+[4.839s] -- Install configuration: ""
+[4.839s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/package_run_dependencies/rain_arm_description
+[4.839s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/parent_prefix_path/rain_arm_description
+[4.840s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/ament_prefix_path.sh
+[4.840s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/ament_prefix_path.dsv
+[4.840s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/path.sh
+[4.840s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/path.dsv
+[4.840s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.bash
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.sh
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.zsh
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.dsv
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.dsv
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/packages/rain_arm_description
+[4.841s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/cmake/rain_arm_descriptionConfig.cmake
+[4.842s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/cmake/rain_arm_descriptionConfig-version.cmake
+[4.842s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.xml
+[4.845s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description

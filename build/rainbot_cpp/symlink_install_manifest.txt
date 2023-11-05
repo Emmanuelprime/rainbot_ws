@@ -1,0 +1,15 @@
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/package_run_dependencies/rainbot_cpp
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/parent_prefix_path/rainbot_cpp
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/ament_prefix_path.sh
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/ament_prefix_path.dsv
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/path.sh
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/path.dsv
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.bash
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.sh
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.zsh
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.dsv
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.dsv
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/packages/rainbot_cpp
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/cmake/rainbot_cppConfig.cmake
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/cmake/rainbot_cppConfig-version.cmake
+/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.xml
