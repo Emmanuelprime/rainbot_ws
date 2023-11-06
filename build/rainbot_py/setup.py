@@ -1,1 +1,0 @@
-/home/emmanuel/rainbot_ws/src/rainbot_py/setup.py

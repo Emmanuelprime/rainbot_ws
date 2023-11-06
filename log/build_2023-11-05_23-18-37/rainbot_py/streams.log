@@ -1,0 +1,42 @@
+[2.981s] Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_py': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/emmanuel/rainbot_ws/build/rainbot_py/build
+[3.300s] running develop
+[3.315s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.315s]   warnings.warn(
+[3.329s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.330s]   warnings.warn(
+[3.540s] Removing /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot-py.egg-link (link to .)
+[3.582s] Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_py' returned '0': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/emmanuel/rainbot_ws/build/rainbot_py/build
+[3.585s] Invoking command in '/home/emmanuel/rainbot_ws/src/rainbot_py': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed
+[3.891s] running egg_info
+[3.892s] writing ../../build/rainbot_py/rainbot_py.egg-info/PKG-INFO
+[3.892s] writing dependency_links to ../../build/rainbot_py/rainbot_py.egg-info/dependency_links.txt
+[3.893s] writing entry points to ../../build/rainbot_py/rainbot_py.egg-info/entry_points.txt
+[3.893s] writing requirements to ../../build/rainbot_py/rainbot_py.egg-info/requires.txt
+[3.893s] writing top-level names to ../../build/rainbot_py/rainbot_py.egg-info/top_level.txt
+[3.895s] reading manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+[3.896s] writing manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+[3.896s] running build
+[3.897s] running build_py
+[3.897s] running install
+[3.897s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.898s]   warnings.warn(
+[3.898s] running install_lib
+[3.899s] creating /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.899s] copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/__init__.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.899s] copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/another_pub.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.899s] copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/simple_publisher.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.900s] copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/another_sub.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.900s] copying /home/emmanuel/rainbot_ws/build/rainbot_py/build/lib/rainbot_py/simple_subscriber.py -> /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py
+[3.900s] byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__init__.py to __init__.cpython-310.pyc
+[3.901s] byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/another_pub.py to another_pub.cpython-310.pyc
+[3.901s] byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_publisher.py to simple_publisher.cpython-310.pyc
+[3.902s] byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/another_sub.py to another_sub.cpython-310.pyc
+[3.903s] byte-compiling /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[3.903s] running install_data
+[3.904s] running install_egg_info
+[3.907s] Copying ../../build/rainbot_py/rainbot_py.egg-info to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py-0.0.0-py3.10.egg-info
+[3.908s] running install_scripts
+[3.932s] Installing rain_publisher script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[3.933s] Installing rain_subscriber script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[3.933s] writing list of installed files to '/home/emmanuel/rainbot_ws/build/rainbot_py/install.log'
+[3.967s] Invoked command in '/home/emmanuel/rainbot_ws/src/rainbot_py' returned '0': PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed
