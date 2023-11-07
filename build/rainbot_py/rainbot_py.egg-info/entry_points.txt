@@ -1,4 +1,5 @@
 [console_scripts]
+rain_parameter = rainbot_py.simple_parameter:main
 rain_publisher = rainbot_py.simple_publisher:main
 rain_subscriber = rainbot_py.simple_subscriber:main
 

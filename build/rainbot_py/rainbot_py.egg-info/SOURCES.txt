@@ -11,6 +11,7 @@ setup.py
 rainbot_py/__init__.py
 rainbot_py/another_pub.py
 rainbot_py/another_sub.py
+rainbot_py/simple_parameter.py
 rainbot_py/simple_publisher.py
 rainbot_py/simple_subscriber.py
 resource/rainbot_py
