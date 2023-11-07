@@ -37,7 +37,8 @@ def generate_launch_description():
     spawn_robot = Node(
         package= "gazebo_ros",
         executable="spawn_entity.py",
-        arguments=["-entity","rain_arm","-topic", "robot_description"]
+        arguments=["-entity","rain_arm","-topic", "robot_description"],
+        output = 'screen'
     )
 
     return LaunchDescription([
