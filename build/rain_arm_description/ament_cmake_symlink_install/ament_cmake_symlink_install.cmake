@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "urdf" "DESTINATION" "share/rain_arm_description")
-ament_cmake_symlink_install_directory("/home/emmanuel/rainbot_ws/src/rain_arm_description" DIRECTORY "meshes" "urdf" "DESTINATION" "share/rain_arm_description")
+# install(DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/rain_arm_description")
+ament_cmake_symlink_install_directory("/home/emmanuel/rainbot_ws/src/rain_arm_description" DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/rain_arm_description")
 
 # install(FILES "/home/emmanuel/rainbot_ws/build/rain_arm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rain_arm_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/emmanuel/rainbot_ws/src/rain_arm_description" FILES "/home/emmanuel/rainbot_ws/build/rain_arm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rain_arm_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

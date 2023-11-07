@@ -3,11 +3,19 @@
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30"/>
     <xacro:property name="velocity" value="10"/>
+
+    <xacro:macro name="default_inertial" params="mass">
+        <inertial>
+            <mass value="${mass}"/>
+            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+        </inertial>
+    </xacro:macro>
     
     
     <link name="world"/>
 
     <link name="base_link">
+        <xacro:default_inertial mass = "1.0"/>
         <visual>
             <origin xyz="-0.5 -0.5 0.0" rpy="0.0 0.0 0.0"/>
             
@@ -15,7 +23,14 @@
                 <mesh filename="package://rain_arm_description/meshes/basement.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
-    </link>    
+        <collision>
+            <origin xyz="-0.5 -0.5 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <mesh filename="package://rain_arm_description/meshes/basement.STL" scale="0.01 0.01 0.01"/>
+                </geometry>
+        </collision>
+    </link>
+
     <joint name="world_base_link" type="fixed">
         <parent link="world"/>
         <child link="base_link"/>
@@ -23,14 +38,21 @@
     </joint>
 
     <link name="base_plate">
+        <xacro:default_inertial mass = "0.1"/>
         <visual>
-            
             <origin xyz="-0.39 -0.39 -0.56" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <mesh filename="package://rain_arm_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
+        <collision>
+            <origin xyz="-0.39 -0.39 -0.56" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://rain_arm_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
     </link>
+
 
     <joint name="base_link_base_plate" type="revolute">
         <parent link="base_link"/>
@@ -42,6 +64,7 @@
     </joint>
 
     <link name="forward_drive_arm">
+        <xacro:default_inertial mass = "0.1"/>
         <visual>
             <origin rpy="0.0 -${PI/2} ${PI/2}" xyz="0.19 0.06 -0.08"/>
             
@@ -49,6 +72,13 @@
                 <mesh filename="package://rain_arm_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
+        <collision>
+            <origin rpy="0.0 -${PI/2} ${PI/2}" xyz="0.19 0.06 -0.08"/>
+            
+            <geometry>
+                <mesh filename="package://rain_arm_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
     </link>
 
     <joint name="base_plate_forward_drive_arm" type="revolute">
@@ -61,6 +91,7 @@
 
 
     <link name="horizontal_arm">
+        <xacro:default_inertial mass = "0.1"/>
         <visual>
             <origin rpy="${PI/2} 0.0 ${PI/2}" xyz="-0.03 -0.4 -0.06"/>
             
@@ -68,6 +99,12 @@
                 <mesh filename="package://rain_arm_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </visual>
+        <collision>
+                <origin rpy="${PI/2} 0.0 ${PI/2}" xyz="-0.03 -0.4 -0.06"/>
+                <geometry>
+                    <mesh filename="package://rain_arm_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01"/>
+                </geometry>
+        </collision>
     </link>
 
     <joint name="forward_drive_arm_horizontal_arm" type="revolute">
@@ -79,12 +116,20 @@
     </joint>
 
     <link name="claw_base">
+        <xacro:default_inertial mass = "0.05"/>
         <visual>
             <origin xyz="0.0 -0.05 -0.15" rpy="0.0 0.0 ${PI/2}"/>
             <geometry>
                 <mesh filename="package://rain_arm_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/> 
             </geometry>
         </visual>
+
+        <collision>
+            <origin xyz="0.0 -0.05 -0.15" rpy="0.0 0.0 ${PI/2}"/>
+            <geometry>
+                <mesh filename="package://rain_arm_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/> 
+            </geometry>
+        </collision>
     </link>
 
         <joint name="horizontal_arm_claw_base" type="fixed">
@@ -94,21 +139,35 @@
         </joint>
 
         <link name="gripper_right">
+            <xacro:default_inertial mass = "0.01"/>
             <visual>
                 <origin xyz="-0.1 0.5 -0.1" rpy="0.0 0.0 -${PI/2}"/>
                 <geometry>
                     <mesh filename="package://rain_arm_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
                 </geometry>
             </visual>
+            <collision>
+                <origin xyz="-0.1 0.5 -0.1" rpy="0.0 0.0 -${PI/2}"/>
+                <geometry>
+                    <mesh filename="package://rain_arm_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
+                </geometry>
+            </collision>
         </link>
 
         <link name="gripper_left">
+            <xacro:default_inertial mass = "0.01"/>
             <visual>
                 <origin xyz="-0.04 0.5 -0.1" rpy="0.0 0.0 -${PI/2}"/>
                 <geometry>
                     <mesh filename="package://rain_arm_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>
                 </geometry>
             </visual>
+            <collision>
+                <origin xyz="-0.04 0.5 -0.1" rpy="0.0 0.0 -${PI/2}"/>
+                <geometry>
+                    <mesh filename="package://rain_arm_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>
+                </geometry>
+            </collision>
         </link>
         
         

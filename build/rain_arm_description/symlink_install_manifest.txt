@@ -12,6 +12,9 @@
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/triangular_link.STL
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/vertical_drive_arm.STL
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm.urdf.xacro
+/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/display.launch.py
+/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/gazebo.launch.py
+/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/rviz/display.rviz
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/package_run_dependencies/rain_arm_description
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/parent_prefix_path/rain_arm_description
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/ament_prefix_path.sh
