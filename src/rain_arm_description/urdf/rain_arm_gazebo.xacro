@@ -2,11 +2,11 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rain_arm">
 
     <gazebo>
-        <plugins filename = "libgazebo_ros2_control.so" name = "gazebo_ros2_control">
+        <plugin filename = "libgazebo_ros2_control.so" name = "gazebo_ros2_control">
             <robot_param>robot_description</robot_param>
             <robot_param_node>robot_state_publisher</robot_param_node>
-            <parameter></parameter>
-        </plugins>
+            <parameters>$(find rain_arm_controller)/config/rain_arm_controllers.yaml</parameters>
+        </plugin>
     </gazebo>
     
 </robot>

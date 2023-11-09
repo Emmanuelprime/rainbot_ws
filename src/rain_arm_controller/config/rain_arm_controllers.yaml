@@ -1,0 +1,43 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10 #hz
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    # gripper_controller:
+    #   type: forward_command_controller/ForwardCommandController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+
+arm_controller:
+  ros__parameters:
+    joints: 
+      - base_link_base_plate #joint 1
+      - base_plate_forward_drive_arm # joint 2
+      - forward_drive_arm_horizontal_arm  #joint 3
+    command_interfaces:               # setting to position because we want to give the position of the arm
+      - position
+
+    state_interfaces:
+      - position
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - claw_base_gripper_right
+    # interface_name: position
+
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+
+

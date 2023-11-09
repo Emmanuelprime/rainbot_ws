@@ -1,0 +1,21 @@
+[0.250s] Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+[0.733s] Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+[0.790s] Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp
+[0.806s] -- Install configuration: ""
+[0.809s] -- Execute custom install script
+[0.810s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/package_run_dependencies/rainbot_cpp
+[0.811s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/parent_prefix_path/rainbot_cpp
+[0.812s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/ament_prefix_path.sh
+[0.813s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/path.sh
+[0.817s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/environment/path.dsv
+[0.818s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.bash
+[0.819s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.sh
+[0.821s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.zsh
+[0.822s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/local_setup.dsv
+[0.823s] -- Symlinking: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.dsv
+[0.845s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/ament_index/resource_index/packages/rainbot_cpp
+[0.845s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/cmake/rainbot_cppConfig.cmake
+[0.845s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/cmake/rainbot_cppConfig-version.cmake
+[0.845s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.xml
+[0.846s] Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp

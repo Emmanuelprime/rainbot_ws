@@ -1,3 +1,5 @@
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/config/rain_arm_controllers.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/launch/controller.launch.py
 /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/package_run_dependencies/rain_arm_controller
 /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/parent_prefix_path/rain_arm_controller
 /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/ament_prefix_path.sh
