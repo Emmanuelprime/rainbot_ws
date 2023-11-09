@@ -12,6 +12,8 @@
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/triangular_link.STL
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/vertical_drive_arm.STL
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm.urdf.xacro
+/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm_gazebo.xacro
+/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm_ros2_control.xacro
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/display.launch.py
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/gazebo.launch.py
 /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/rviz/display.rviz

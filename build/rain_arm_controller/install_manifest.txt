@@ -1,0 +1,15 @@
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/package_run_dependencies/rain_arm_controller
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/parent_prefix_path/rain_arm_controller
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/ament_prefix_path.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/ament_prefix_path.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/path.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/path.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.bash
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.zsh
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/packages/rain_arm_controller
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/cmake/rain_arm_controllerConfig.cmake
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/cmake/rain_arm_controllerConfig-version.cmake
+/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.xml

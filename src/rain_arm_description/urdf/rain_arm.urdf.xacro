@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rain_arm">
+    <xacro:include filename="$(find rain_arm_description)/urdf/rain_arm_gazebo.xacro"/>
+    <xacro:include filename="$(find rain_arm_description)/urdf/rain_arm_ros2_control.xacro"/>
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30"/>
     <xacro:property name="velocity" value="10"/>
@@ -9,6 +11,14 @@
             <mass value="${mass}"/>
             <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
         </inertial>
+    </xacro:macro>
+
+    <xacro:macro name = "default_transmission" params = "joint_name">
+        <transmission name="transmission_of_${joint_name}">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name= "motor_of_${joint_name}" role ="actuator1"></actuator>
+            <joint name="${joint_name}" role="joint1"/>
+        </transmission>
     </xacro:macro>
     
     
@@ -188,6 +198,11 @@
         <mimic joint = "claw_base_gripper_right" multiplier = "-1"/>
         <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
+
+    <xacro:default_transmission joint_name = "base_link_base_plate"/>
+    <xacro:default_transmission joint_name = "base_plate_forward_drive_arm"/>
+    <xacro:default_transmission joint_name = "claw_base_gripper_right"/>
+    <xacro:default_transmission joint_name = "forward_drive_arm_horizontal_arm"/>
 
 
 </robot>

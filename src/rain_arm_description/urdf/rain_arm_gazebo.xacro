@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rain_arm">
+
+    <gazebo>
+        <plugins filename = "libgazebo_ros2_control.so" name = "gazebo_ros2_control">
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+            <parameter></parameter>
+        </plugins>
+    </gazebo>
+    
+</robot>
