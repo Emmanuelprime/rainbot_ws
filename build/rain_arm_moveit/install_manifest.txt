@@ -1,3 +1,11 @@
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/kinematics.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/moveit_controllers.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/joint_limits.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/moveit.rviz
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/rain_arm.srdf
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/pilz_cartesian_limits.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/initial_positions.yaml
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/launch/moveit.launch.py
 /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/package_run_dependencies/rain_arm_moveit
 /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/parent_prefix_path/rain_arm_moveit
 /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/ament_prefix_path.sh

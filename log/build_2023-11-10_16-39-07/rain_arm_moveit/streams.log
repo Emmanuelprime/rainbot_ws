@@ -1,0 +1,30 @@
+[0.148s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_moveit -- -j4 -l4
+[0.620s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_moveit -- -j4 -l4
+[0.694s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_moveit
+[0.737s] -- Install configuration: ""
+[0.737s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config
+[0.738s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/kinematics.yaml
+[0.739s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/moveit_controllers.yaml
+[0.739s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/joint_limits.yaml
+[0.739s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/moveit.rviz
+[0.739s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/rain_arm.srdf
+[0.739s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/pilz_cartesian_limits.yaml
+[0.739s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/config/initial_positions.yaml
+[0.740s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/launch
+[0.740s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/launch/moveit.launch.py
+[0.740s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/package_run_dependencies/rain_arm_moveit
+[0.741s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/parent_prefix_path/rain_arm_moveit
+[0.741s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/ament_prefix_path.sh
+[0.741s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/ament_prefix_path.dsv
+[0.741s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/path.sh
+[0.745s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/path.dsv
+[0.746s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.bash
+[0.746s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.sh
+[0.746s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.zsh
+[0.747s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.dsv
+[0.747s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.dsv
+[0.747s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/packages/rain_arm_moveit
+[0.748s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/cmake/rain_arm_moveitConfig.cmake
+[0.748s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/cmake/rain_arm_moveitConfig-version.cmake
+[0.748s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.xml
+[0.749s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_moveit

@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rain_arm_moveit" TYPE DIRECTORY FILES
+    "/home/emmanuel/rainbot_ws/src/rain_arm_moveit/config"
+    "/home/emmanuel/rainbot_ws/src/rain_arm_moveit/launch"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmanuel/rainbot_ws/build/rain_arm_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rain_arm_moveit")
 endif()
 
