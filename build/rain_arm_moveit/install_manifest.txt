@@ -1,0 +1,15 @@
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/package_run_dependencies/rain_arm_moveit
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/parent_prefix_path/rain_arm_moveit
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/ament_prefix_path.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/ament_prefix_path.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/path.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/environment/path.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.bash
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.sh
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.zsh
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/local_setup.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.dsv
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/ament_index/resource_index/packages/rain_arm_moveit
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/cmake/rain_arm_moveitConfig.cmake
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/cmake/rain_arm_moveitConfig-version.cmake
+/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.xml

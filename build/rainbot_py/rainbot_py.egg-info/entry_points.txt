@@ -2,4 +2,6 @@
 rain_parameter = rainbot_py.simple_parameter:main
 rain_publisher = rainbot_py.simple_publisher:main
 rain_subscriber = rainbot_py.simple_subscriber:main
+simple_service_client = rainbot_py.simple_server_client:main
+simple_service_server = rainbot_py.simple_service_server:main
 

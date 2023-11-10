@@ -1,11 +1,15 @@
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_service_server.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_parameter.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__init__.py
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_server_client.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/another_pub.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_publisher.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/another_sub.py
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/simple_subscriber.py
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/simple_service_server.cpython-310.pyc
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/simple_parameter.cpython-310.pyc
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/__init__.cpython-310.pyc
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/simple_server_client.cpython-310.pyc
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/another_pub.cpython-310.pyc
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/simple_publisher.cpython-310.pyc
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py/__pycache__/another_sub.cpython-310.pyc
@@ -22,3 +26,5 @@
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py/rain_parameter
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py/rain_publisher
 /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py/rain_subscriber
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py/simple_service_client
+/home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py/simple_service_server

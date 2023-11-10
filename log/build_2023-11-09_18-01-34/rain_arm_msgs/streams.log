@@ -1,0 +1,219 @@
+[0.211s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4
+[0.255s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.920s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.992s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.042s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.421s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.093s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.772s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.803s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.919s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.920s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.920s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.920s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.951s] -- Found PythonExtra: .so  
+[3.030s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.117s] -- Added test 'lint_cmake' to check CMake code style
+[3.119s] -- Added test 'xmllint' to check XML markup files
+[3.124s] -- Configuring done
+[3.254s] -- Generating done
+[3.259s] -- Build files have been written to: /home/emmanuel/rainbot_ws/build/rain_arm_msgs
+[3.296s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.312s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.332s] [  6%] Built target ament_cmake_python_copy_rain_arm_msgs
+[3.844s] running egg_info
+[3.845s] creating rain_arm_msgs.egg-info
+[3.846s] writing rain_arm_msgs.egg-info/PKG-INFO
+[3.847s] writing dependency_links to rain_arm_msgs.egg-info/dependency_links.txt
+[3.848s] writing top-level names to rain_arm_msgs.egg-info/top_level.txt
+[3.849s] writing manifest file 'rain_arm_msgs.egg-info/SOURCES.txt'
+[3.850s] reading manifest file 'rain_arm_msgs.egg-info/SOURCES.txt'
+[3.851s] writing manifest file 'rain_arm_msgs.egg-info/SOURCES.txt'
+[3.907s] [  6%] Built target ament_cmake_python_build_rain_arm_msgs_egg
+[3.986s] [  9%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rain_arm_msgs/srv/detail/add_twoints__functions.c.o[0m
+[4.013s] [  9%] Built target rain_arm_msgs__cpp
+[4.029s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.033s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.034s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.523s] [ 22%] [32mBuilding CXX object CMakeFiles/rain_arm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rain_arm_msgs/srv/add_twoints__type_support.cpp.o[0m
+[4.587s] [ 25%] [32mBuilding CXX object CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o[0m
+[4.663s] [ 29%] [32mBuilding CXX object CMakeFiles/rain_arm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rain_arm_msgs/srv/detail/add_twoints__type_support.cpp.o[0m
+[6.040s] [ 32%] [32m[1mLinking C shared library librain_arm_msgs__rosidl_generator_c.so[0m
+[6.422s] [ 32%] Built target rain_arm_msgs__rosidl_generator_c
+[6.440s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.954s] [ 38%] [32mBuilding CXX object CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rain_arm_msgs/srv/detail/add_twoints__type_support_c.cpp.o[0m
+[9.116s] [ 45%] [32m[1mLinking CXX shared library librain_arm_msgs__rosidl_typesupport_cpp.so[0m
+[9.116s] [ 45%] [32m[1mLinking CXX shared library librain_arm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.237s] [ 45%] Built target rain_arm_msgs__rosidl_typesupport_introspection_cpp
+[9.250s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.322s] [ 48%] Built target rain_arm_msgs__rosidl_typesupport_cpp
+[9.334s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.948s] [ 54%] [32mBuilding CXX object CMakeFiles/rain_arm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rain_arm_msgs/srv/add_twoints__type_support.cpp.o[0m
+[10.022s] [ 58%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rain_arm_msgs/srv/detail/add_twoints__type_support.c.o[0m
+[11.333s] [ 61%] [32m[1mLinking CXX shared library librain_arm_msgs__rosidl_typesupport_c.so[0m
+[11.334s] [ 64%] [32m[1mLinking CXX shared library librain_arm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.348s] [ 67%] [32m[1mLinking CXX shared library librain_arm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.352s] [ 70%] [32m[1mLinking C shared library librain_arm_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.438s] [ 70%] Built target rain_arm_msgs__rosidl_typesupport_c
+[11.438s] [ 70%] Built target rain_arm_msgs__rosidl_typesupport_introspection_c
+[11.780s] [ 70%] Built target rain_arm_msgs__rosidl_typesupport_fastrtps_cpp
+[11.780s] [ 70%] Built target rain_arm_msgs__rosidl_typesupport_fastrtps_c
+[11.803s] [ 70%] Built target rain_arm_msgs
+[11.827s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.468s] [ 74%] Built target rain_arm_msgs__py
+[12.495s] [ 77%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rain_arm_msgs/srv/_add_twoints_s.c.o[0m
+[14.578s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rain_arm_msgs/librain_arm_msgs__rosidl_generator_py.so[0m
+[14.702s] [ 80%] Built target rain_arm_msgs__rosidl_generator_py
+[14.728s] [ 83%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.738s] [ 87%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.738s] [ 90%] [32mBuilding C object CMakeFiles/rain_arm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.910s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.920s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.940s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.965s] [100%] Built target rain_arm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.977s] [100%] Built target rain_arm_msgs__rosidl_typesupport_c__pyext
+[14.994s] [100%] Built target rain_arm_msgs__rosidl_typesupport_introspection_c__pyext
+[15.010s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4
+[15.079s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_msgs
+[15.091s] -- Install configuration: ""
+[15.091s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/ament_index/resource_index/rosidl_interfaces/rain_arm_msgs
+[15.091s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/add_twoints.h
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__functions.c
+[15.092s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__struct.h
+[15.093s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__functions.h
+[15.093s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__type_support.h
+[15.093s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/library_path.sh
+[15.093s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/library_path.dsv
+[15.093s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_generator_c.so
+[15.094s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_generator_c.so" to ""
+[15.094s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.094s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg
+[15.094s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.094s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.095s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.095s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_c.h
+[15.095s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_fastrtps_c.so
+[15.095s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.095s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.096s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.096s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.096s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__struct.hpp
+[15.096s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__builder.hpp
+[15.096s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__traits.hpp
+[15.097s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/add_twoints.hpp
+[15.097s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.097s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg
+[15.097s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.097s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.097s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.098s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/dds_fastrtps
+[15.098s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_cpp.hpp
+[15.098s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.098s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.098s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.098s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg
+[15.099s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.099s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.099s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.099s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__type_support.c
+[15.099s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+[15.099s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_introspection_c.so
+[15.100s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.100s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_c.so
+[15.100s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_c.so" to ""
+[15.101s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs
+[15.101s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv
+[15.101s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail
+[15.101s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__type_support.cpp
+[15.101s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/include/rain_arm_msgs/rain_arm_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_cpp.hpp
+[15.101s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_introspection_cpp.so
+[15.102s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.102s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_cpp.so
+[15.103s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_typesupport_cpp.so" to ""
+[15.103s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/pythonpath.sh
+[15.103s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/pythonpath.dsv
+[15.103s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs-0.0.0-py3.10.egg-info
+[15.103s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.104s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_c.c
+[15.105s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/librain_arm_msgs__rosidl_generator_py.so
+[15.105s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.105s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv
+[15.105s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv/_add_twoints.py
+[15.105s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv/_add_twoints_s.c
+[15.106s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv/__init__.py
+[15.106s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.106s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/__init__.py
+[15.106s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.107s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/_rain_arm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.152s] Listing '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs'...
+[15.152s] Compiling '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/__init__.py'...
+[15.152s] Listing '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv'...
+[15.152s] Compiling '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv/__init__.py'...
+[15.152s] Compiling '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/srv/_add_twoints.py'...
+[15.159s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.160s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.160s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.161s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.161s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.162s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/local/lib/python3.10/dist-packages/rain_arm_msgs/rain_arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.162s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_generator_py.so
+[15.163s] -- Set runtime path of "/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/librain_arm_msgs__rosidl_generator_py.so" to ""
+[15.163s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/srv/AddTwoints.idl
+[15.163s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/srv/AddTwoints.srv
+[15.163s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/srv/AddTwoints_Request.msg
+[15.164s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/srv/AddTwoints_Response.msg
+[15.164s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/ament_index/resource_index/package_run_dependencies/rain_arm_msgs
+[15.164s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/ament_index/resource_index/parent_prefix_path/rain_arm_msgs
+[15.164s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/ament_prefix_path.sh
+[15.164s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/ament_prefix_path.dsv
+[15.165s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/path.sh
+[15.165s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/environment/path.dsv
+[15.165s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/local_setup.bash
+[15.165s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/local_setup.sh
+[15.165s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/local_setup.zsh
+[15.165s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/local_setup.dsv
+[15.165s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.dsv
+[15.166s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/ament_index/resource_index/packages/rain_arm_msgs
+[15.166s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_generator_cExport.cmake
+[15.166s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.166s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.167s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.167s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_generator_cppExport.cmake
+[15.167s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.167s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.168s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.168s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.168s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_cExport.cmake
+[15.168s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.169s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.169s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.169s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_cppExport.cmake
+[15.169s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.170s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_generator_pyExport.cmake
+[15.170s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/export_rain_arm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.170s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rosidl_cmake-extras.cmake
+[15.170s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.171s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.171s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.171s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.171s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.171s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.172s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgsConfig.cmake
+[15.172s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/cmake/rain_arm_msgsConfig-version.cmake
+[15.172s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.xml
+[15.176s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_msgs

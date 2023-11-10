@@ -1,0 +1,21 @@
+[0.469s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4
+[0.513s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.882s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.948s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.954s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.967s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.189s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.207s] -- Configuring incomplete, errors occurred!
+[1.208s] See also "/home/emmanuel/rainbot_ws/build/rain_arm_msgs/CMakeFiles/CMakeOutput.log".
+[1.208s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.208s]   rosidl_generate_interfaces() the passed file 'srv/EulerToQuarternion.srv'
+[1.208s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.208s]   '/home/emmanuel/rainbot_ws/src/rain_arm_msgs'
+[1.209s] Call Stack (most recent call first):
+[1.209s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.209s] 
+[1.209s] [0m
+[1.225s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.618s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="rain_arm">
+    <group name ="arm">
+        <joint name="virtual_joint" />
+
+        <joint name = "base_link_base_plate"/>
+        <joint name = "base_plate_forward_drive_arm"/>
+        <joint name = "forward_drive_arm_horizontal_arm"/>
+
+        <joint name = "horizontal_arm_claw_base"/>
+    </group>
+
+    <group name = "gripper">
+        <joint name="claw_base_gripper_right"/>
+        <joint name="claw_base_gripper_left"/>
+    </group>
+    <!-- defining starting configurations-->
+
+    <group_state name = "home"  group="arm">
+        <joint name="base_link_base_plate" value ="0"/>
+        <joint name="base_plate_forward_drive_arm" value ="0"/>
+        <joint name="forward_drive_arm_horizontal_arm" value ="0"/>
+            
+    </group_state>
+
+    <group_state name = "home" group ="gripper" >
+        <joint name="claw_base_gripper_right" value="0"/>
+    </group_state>
+
+    <disable_collision link1 ="base_link" link2 ="base_plate" reason="Adjacent"/>
+    <disable_collision link1 ="base_link" link2 ="forward_drive_arm" reason="Never"/>
+    <disable_collision link1 ="base_plate" link2 ="forward_drive_arm" reason="Never"/>
+    <disable_collision link1 ="claw_base" link2 ="forward_drive_arm" reason="Never"/>
+    <disable_collision link1 ="claw_base" link2 ="gripper_left" reason="Never"/>
+    <disable_collision link1 ="claw_base" link2 ="gripper_right" reason="Never"/>
+    <disable_collision link1 ="forward_drive_arm" link2 ="gripper_left" reason="Never"/>
+    <disable_collision link1 ="forward_drive_arm" link2 ="gripper_right" reason="Never"/>
+    <disable_collision link1 ="forward_drive_arm" link2 ="horizontal_arm" reason="Never"/>
+    <disable_collision link1 ="gripper_left" link2 ="horizontal_arm" reason="Never"/>
+    <disable_collision link1 ="gripper_right" link2 ="horizontal_arm" reason="Never"/>
+    <disable_collision link1 ="gripper_left" link2 ="gripper_right" reason="Never"/>
+
+</robot>

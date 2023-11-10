@@ -1,0 +1,7 @@
+setup.py
+rainbot_utils/__init__.py
+rainbot_utils/angle_conversion.py
+rainbot_utils.egg-info/PKG-INFO
+rainbot_utils.egg-info/SOURCES.txt
+rainbot_utils.egg-info/dependency_links.txt
+rainbot_utils.egg-info/top_level.txt

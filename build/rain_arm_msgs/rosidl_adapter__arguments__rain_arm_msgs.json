@@ -1,0 +1,8 @@
+{
+  "package_name": "rain_arm_msgs",
+  "non_idl_tuples": [
+    "/home/emmanuel/rainbot_ws/src/rain_arm_msgs:srv/AddTwoints.srv",
+    "/home/emmanuel/rainbot_ws/src/rain_arm_msgs:srv/QuarternionToEuler.srv",
+    "/home/emmanuel/rainbot_ws/src/rain_arm_msgs:srv/EulerToQuarternion.srv"
+  ]
+}

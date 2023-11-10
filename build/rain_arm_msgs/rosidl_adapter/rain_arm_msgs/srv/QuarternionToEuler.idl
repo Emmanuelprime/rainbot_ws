@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rain_arm_msgs/srv/QuarternionToEuler.srv
+// generated code does not contain a copyright notice
+
+
+module rain_arm_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct QuarternionToEuler_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double w;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct QuarternionToEuler_Response {
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+  };
+};

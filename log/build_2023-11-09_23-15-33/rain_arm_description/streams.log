@@ -1,0 +1,40 @@
+[0.201s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[0.287s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[0.407s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description
+[0.450s] -- Install configuration: ""
+[0.450s] -- Execute custom install script
+[0.450s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/base_plate.STL
+[0.450s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/basement.STL
+[0.451s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/claw_support.STL
+[0.451s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/forward_drive_arm.STL
+[0.451s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/horizontal_arm.STL
+[0.451s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/left_finger.STL
+[0.451s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/link.STL
+[0.452s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/plate.STL
+[0.453s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/right_finger.STL
+[0.453s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/round_plate.STL
+[0.453s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/servo_plate.STL
+[0.454s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/triangular_link.STL
+[0.454s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/meshes/vertical_drive_arm.STL
+[0.454s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm.urdf.xacro
+[0.455s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm_gazebo.xacro
+[0.455s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/urdf/rain_arm_ros2_control.xacro
+[0.455s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/display.launch.py
+[0.456s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/launch/gazebo.launch.py
+[0.456s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/rviz/display.rviz
+[0.456s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/package_run_dependencies/rain_arm_description
+[0.457s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/parent_prefix_path/rain_arm_description
+[0.457s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/ament_prefix_path.sh
+[0.457s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/ament_prefix_path.dsv
+[0.458s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/path.sh
+[0.458s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/environment/path.dsv
+[0.458s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.bash
+[0.459s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.sh
+[0.459s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.zsh
+[0.459s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/local_setup.dsv
+[0.460s] -- Symlinking: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.dsv
+[0.499s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/ament_index/resource_index/packages/rain_arm_description
+[0.500s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/cmake/rain_arm_descriptionConfig.cmake
+[0.500s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/cmake/rain_arm_descriptionConfig-version.cmake
+[0.500s] -- Up-to-date symlink: /home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.xml
+[0.624s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description

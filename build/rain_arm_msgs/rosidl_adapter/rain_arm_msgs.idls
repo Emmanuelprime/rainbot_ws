@@ -1,0 +1,3 @@
+/home/emmanuel/rainbot_ws/build/rain_arm_msgs/rosidl_adapter/rain_arm_msgs:srv/AddTwoints.idl
+/home/emmanuel/rainbot_ws/build/rain_arm_msgs/rosidl_adapter/rain_arm_msgs:srv/QuarternionToEuler.idl
+/home/emmanuel/rainbot_ws/build/rain_arm_msgs/rosidl_adapter/rain_arm_msgs:srv/EulerToQuarternion.idl

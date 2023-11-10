@@ -23,6 +23,8 @@ setup(
             'rain_publisher = rainbot_py.simple_publisher:main', #added our packge
             'rain_subscriber = rainbot_py.simple_subscriber:main',
             'rain_parameter = rainbot_py.simple_parameter:main',
+            'simple_service_server = rainbot_py.simple_service_server:main',
+            'simple_service_client = rainbot_py.simple_server_client:main',
 
         ],
     },

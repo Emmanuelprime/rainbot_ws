@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o"
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o.d"
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/euler_to_quarternion__type_support.cpp.o"
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/euler_to_quarternion__type_support.cpp.o.d"
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/quarternion_to_euler__type_support.cpp.o"
+  "CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/quarternion_to_euler__type_support.cpp.o.d"
+  "librain_arm_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "librain_arm_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/add_twoints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/euler_to_quarternion__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/dds_fastrtps/quarternion_to_euler__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/euler_to_quarternion__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rain_arm_msgs/srv/detail/quarternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rain_arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rain_arm_msgs/srv/AddTwoints.srv
+// generated code does not contain a copyright notice
+
+
+module rain_arm_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Create our Request")
+    struct AddTwoints_Request {
+      int64 a;
+
+      int64 b;
+    };
+    struct AddTwoints_Response {
+      int64 sum;
+    };
+  };
+};
