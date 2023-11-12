@@ -16,8 +16,10 @@
     <xacro:macro name = "default_transmission" params = "joint_name">
         <transmission name="transmission_of_${joint_name}">
             <plugin>transmission_interface/SimpleTransmission</plugin>
-            <actuator name= "motor_of_${joint_name}" role ="actuator1"></actuator>
-            <joint name="${joint_name}" role="joint1"/>
+            <actuator name= "motor_of_${joint_name}" role ="actuator1"/>
+            <joint name="${joint_name}" role="joint1">
+                <mechanical_decution>1.0</mechanical_decution>
+            </joint>
         </transmission>
     </xacro:macro>
     
@@ -180,6 +182,14 @@
             </collision>
         </link>
         
+    <!-- My fix for the mimic issues (I suffered ooo) -->
+        <joint name="claw_base_gripper_left_mimic" type="fixed">
+            <parent link="world" />
+            <child link="random" />
+          </joint>
+          <link name="random"/>
+
+
         
     <joint name="claw_base_gripper_right" type="revolute">
         <parent link="claw_base"/>

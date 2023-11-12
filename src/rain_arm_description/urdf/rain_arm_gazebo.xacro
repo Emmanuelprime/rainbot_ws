@@ -6,7 +6,7 @@
             <robot_param>robot_description</robot_param>
             <robot_param_node>robot_state_publisher</robot_param_node>
             <parameters>$(find rain_arm_controller)/config/rain_arm_controllers.yaml</parameters>
-        </plugin>
+        </plugin> 
     </gazebo>
     
 </robot>

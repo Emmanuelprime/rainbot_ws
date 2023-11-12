@@ -1,0 +1,24 @@
+[0.578s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_controller -- -j4 -l4
+[1.920s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_controller -- -j4 -l4
+[1.956s] Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_controller
+[1.995s] -- Install configuration: ""
+[1.996s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/config
+[2.071s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/config/rain_arm_controllers.yaml
+[2.071s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/launch
+[2.127s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/launch/controller.launch.py
+[2.127s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/package_run_dependencies/rain_arm_controller
+[2.149s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/parent_prefix_path/rain_arm_controller
+[2.149s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/ament_prefix_path.sh
+[2.150s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/ament_prefix_path.dsv
+[2.150s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/path.sh
+[2.150s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/environment/path.dsv
+[2.150s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.bash
+[2.150s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.sh
+[2.151s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.zsh
+[2.151s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/local_setup.dsv
+[2.151s] -- Installing: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.dsv
+[2.207s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/ament_index/resource_index/packages/rain_arm_controller
+[2.207s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/cmake/rain_arm_controllerConfig.cmake
+[2.207s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/cmake/rain_arm_controllerConfig-version.cmake
+[2.208s] -- Up-to-date: /home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.xml
+[2.984s] Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_controller

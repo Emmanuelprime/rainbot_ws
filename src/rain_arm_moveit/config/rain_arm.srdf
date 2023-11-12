@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding = "UTF-8"?>
 <robot name="rain_arm">
 <!--GROUPS: Representation of a set of joints and links. This can be useful for specifying DOF to plan for, defining arms, end effectors, etc-->
     <!--LINKS: When a link is specified, the parent joint of that link (if it exists) is automatically included-->
@@ -29,6 +29,7 @@
 
     <group_state name = "home" group ="gripper" >
         <joint name="claw_base_gripper_right" value="0"/>
+        
     </group_state>
 
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
@@ -38,15 +39,14 @@
   
     <disable_collisions link1="base_link" link2="base_plate" reason="Adjacent"/>
     <disable_collisions link1="base_link" link2="forward_drive_arm" reason="Never"/>
-    <disable_collisions link1="base_plate" link2="forward_drive_arm" reason="Adjacent"/>
+    <disable_collisions link1="base_plate" link2="forward_drive_arm" reason="Never"/>
     <disable_collisions link1="claw_base" link2="forward_drive_arm" reason="Never"/>
-    <disable_collisions link1="claw_base" link2="gripper_left" reason="Adjacent"/>
-    <disable_collisions link1="claw_base" link2="gripper_right" reason="Adjacent"/>
-    <disable_collisions link1="claw_base" link2="horizontal_arm" reason="Adjacent"/>
+    <disable_collisions link1="claw_base" link2="gripper_left" reason="Never"/>
+    <disable_collisions link1="claw_base" link2="gripper_right" reason="Never"/>
     <disable_collisions link1="forward_drive_arm" link2="gripper_left" reason="Never"/>
     <disable_collisions link1="forward_drive_arm" link2="gripper_right" reason="Never"/>
-    <disable_collisions link1="forward_drive_arm" link2="horizontal_arm" reason="Adjacent"/>
+    <disable_collisions link1="forward_drive_arm" link2="horizontal_arm" reason="Never"/>
     <disable_collisions link1="gripper_left" link2="horizontal_arm" reason="Never"/>
     <disable_collisions link1="gripper_right" link2="horizontal_arm" reason="Never"/>
-    <disable_collisions link1="gripper_right" link2="gripper_left" reason="Adjacent"/>
-</robot>
+    <disable_collisions link1="gripper_left" link2="gripper_right" reason="Never"/>
+</robot> 

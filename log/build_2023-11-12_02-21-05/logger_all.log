@@ -1,0 +1,511 @@
+[1.395s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.395s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f62e1971ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f62e1c0b880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f62e1c0b880>>)
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.459s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emmanuel/rainbot_ws'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extension 'ignore'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_controller) by extension 'ros'
+[1.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rain_arm_controller' with type 'ros.ament_cmake' and name 'rain_arm_controller'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extension 'ignore_ament_install'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extensions ['colcon_pkg']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extension 'colcon_pkg'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extensions ['colcon_meta']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extension 'colcon_meta'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extensions ['ros']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_description) by extension 'ros'
+[1.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rain_arm_description' with type 'ros.ament_cmake' and name 'rain_arm_description'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extension 'ignore'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extension 'ignore_ament_install'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extensions ['colcon_pkg']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extension 'colcon_pkg'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extensions ['colcon_meta']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extension 'colcon_meta'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extensions ['ros']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_moveit) by extension 'ros'
+[1.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rain_arm_moveit' with type 'ros.ament_cmake' and name 'rain_arm_moveit'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extension 'ignore_ament_install'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extensions ['colcon_pkg']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extension 'colcon_pkg'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extensions ['colcon_meta']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extension 'colcon_meta'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extensions ['ros']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/rain_arm_msgs) by extension 'ros'
+[1.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rain_arm_msgs' with type 'ros.ament_cmake' and name 'rain_arm_msgs'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extension 'ignore_ament_install'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extensions ['colcon_pkg']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extension 'colcon_pkg'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extensions ['colcon_meta']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extension 'colcon_meta'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extensions ['ros']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_cpp) by extension 'ros'
+[1.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rainbot_cpp' with type 'ros.ament_cmake' and name 'rainbot_cpp'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extensions ['ignore', 'ignore_ament_install']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extension 'colcon_meta'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extensions ['ros']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_py) by extension 'ros'
+[1.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rainbot_py' with type 'ros.ament_python' and name 'rainbot_py'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extension 'colcon_meta'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extensions ['ros']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/rainbot_utils) by extension 'ros'
+[1.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rainbot_utils' with type 'ros.ament_cmake' and name 'rainbot_utils'
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.663s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/emmanuel/rainbot_ws/install
+[1.685s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 429 installed packages in /opt/ros/humble
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_args' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_target' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.851s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.852s] DEBUG:colcon.colcon_core.verb:Building package 'rain_arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rain_arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rain_arm_controller', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rain_arm_controller', 'symlink_install': False, 'test_result_base': None}
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_args' from command line to 'None'
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_target' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.874s] DEBUG:colcon.colcon_core.verb:Building package 'rain_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rain_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rain_arm_description', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rain_arm_description', 'symlink_install': False, 'test_result_base': None}
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_target' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.896s] DEBUG:colcon.colcon_core.verb:Building package 'rain_arm_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rain_arm_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rain_arm_moveit', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rain_arm_moveit', 'symlink_install': False, 'test_result_base': None}
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'rain_arm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.919s] DEBUG:colcon.colcon_core.verb:Building package 'rain_arm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rain_arm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rain_arm_msgs', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rain_arm_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_target' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'rainbot_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.941s] DEBUG:colcon.colcon_core.verb:Building package 'rainbot_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rainbot_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rainbot_cpp', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rainbot_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_target' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'rainbot_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.964s] DEBUG:colcon.colcon_core.verb:Building package 'rainbot_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rainbot_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rainbot_py', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rainbot_py', 'symlink_install': False, 'test_result_base': None}
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_args' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_target' from command line to 'None'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[1.985s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[1.986s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[1.986s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.986s] Level 5:colcon.colcon_core.verb:set package 'rainbot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.986s] DEBUG:colcon.colcon_core.verb:Building package 'rainbot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmanuel/rainbot_ws/build/rainbot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmanuel/rainbot_ws/install/rainbot_utils', 'merge_install': False, 'path': '/home/emmanuel/rainbot_ws/src/rainbot_utils', 'symlink_install': False, 'test_result_base': None}
+[2.007s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.029s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rain_arm_msgs' with build type 'ament_cmake'
+[2.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rain_arm_msgs'
+[2.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.126s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rain_arm_controller' with build type 'ament_cmake'
+[2.126s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rain_arm_controller'
+[2.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rain_arm_description' with build type 'ament_cmake'
+[2.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rain_arm_description'
+[2.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rain_arm_moveit' with build type 'ament_cmake'
+[2.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rain_arm_moveit'
+[2.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4
+[2.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_controller -- -j4 -l4
+[2.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_moveit -- -j4 -l4
+[2.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_controller -- -j4 -l4
+[2.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_description -- -j4 -l4
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_moveit -- -j4 -l4
+[2.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_controller
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description
+[2.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_controller)
+[2.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_controller
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller' for CMake module files
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller' for CMake config files
+[2.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_controller', 'cmake_prefix_path')
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.sh'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/lib/pkgconfig/rain_arm_controller.pc'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/lib/python3.10/site-packages'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/bin'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.ps1'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.dsv'
+[2.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.sh'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.bash'
+[2.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.zsh'
+[2.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/colcon-core/packages/rain_arm_controller)
+[2.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_moveit
+[2.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_description)
+[2.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_description
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description' for CMake module files
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description' for CMake config files
+[2.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_description', 'cmake_prefix_path')
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.ps1'
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.dsv'
+[2.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.sh'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/bin'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/lib/pkgconfig/rain_arm_description.pc'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/lib/python3.10/site-packages'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/bin'
+[2.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.ps1'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.dsv'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.sh'
+[2.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.bash'
+[2.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.zsh'
+[2.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_description/share/colcon-core/packages/rain_arm_description)
+[2.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_moveit)
+[2.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_moveit
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit' for CMake module files
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit' for CMake config files
+[3.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_moveit', 'cmake_prefix_path')
+[3.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.ps1'
+[3.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.dsv'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.sh'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/bin'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/lib/pkgconfig/rain_arm_moveit.pc'
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/lib/python3.10/site-packages'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/bin'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.ps1'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.dsv'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.sh'
+[3.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.bash'
+[3.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.zsh'
+[3.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/colcon-core/packages/rain_arm_moveit)
+[3.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_controller)
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller' for CMake module files
+[3.197s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller' for CMake config files
+[3.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_controller', 'cmake_prefix_path')
+[3.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.ps1'
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.dsv'
+[3.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/hook/cmake_prefix_path.sh'
+[3.240s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/bin'
+[3.240s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/lib/pkgconfig/rain_arm_controller.pc'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/lib/python3.10/site-packages'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_controller/bin'
+[3.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.ps1'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.dsv'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.sh'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.bash'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/rain_arm_controller/package.zsh'
+[3.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_controller/share/colcon-core/packages/rain_arm_controller)
+[3.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rainbot_cpp' with build type 'ament_cmake'
+[3.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rainbot_cpp'
+[3.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rain_arm_msgs -- -j4 -l4
+[3.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_description)
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description' for CMake module files
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description' for CMake config files
+[3.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_description', 'cmake_prefix_path')
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.dsv'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/hook/cmake_prefix_path.sh'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/bin'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/lib/pkgconfig/rain_arm_description.pc'
+[3.646s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/lib/python3.10/site-packages'
+[3.646s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_description/bin'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.ps1'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.dsv'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.sh'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.bash'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_description/share/rain_arm_description/package.zsh'
+[3.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_description/share/colcon-core/packages/rain_arm_description)
+[3.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_moveit)
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit' for CMake module files
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit' for CMake config files
+[3.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_moveit', 'cmake_prefix_path')
+[3.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.ps1'
+[3.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.dsv'
+[3.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/hook/cmake_prefix_path.sh'
+[3.856s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/bin'
+[3.856s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/lib/pkgconfig/rain_arm_moveit.pc'
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/lib/python3.10/site-packages'
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/bin'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.dsv'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.sh'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.bash'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/rain_arm_moveit/package.zsh'
+[3.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_moveit/share/colcon-core/packages/rain_arm_moveit)
+[3.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+[3.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_msgs
+[4.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_cpp -- -j4 -l4
+[4.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_msgs)
+[4.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rain_arm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rain_arm_msgs
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs' for CMake module files
+[4.148s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs' for CMake config files
+[4.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_msgs', 'cmake_prefix_path')
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.ps1'
+[4.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.dsv'
+[4.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.sh'
+[4.192s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib'
+[4.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_msgs', 'ld_library_path_lib')
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.ps1'
+[4.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.dsv'
+[4.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.sh'
+[4.234s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/bin'
+[4.234s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/pkgconfig/rain_arm_msgs.pc'
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/python3.10/site-packages'
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/bin'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.ps1'
+[4.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.dsv'
+[4.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.sh'
+[4.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.bash'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.zsh'
+[4.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/colcon-core/packages/rain_arm_msgs)
+[4.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp
+[4.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rainbot_cpp)
+[4.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_cpp
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp' for CMake module files
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp' for CMake config files
+[4.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_cpp', 'cmake_prefix_path')
+[4.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.ps1'
+[4.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.dsv'
+[4.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.sh'
+[4.434s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/bin'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/lib/pkgconfig/rainbot_cpp.pc'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/lib/python3.10/site-packages'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/bin'
+[4.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.ps1'
+[4.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.dsv'
+[4.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.sh'
+[4.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.bash'
+[4.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.zsh'
+[4.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/colcon-core/packages/rainbot_cpp)
+[4.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rainbot_cpp)
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp' for CMake module files
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp' for CMake config files
+[4.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_cpp', 'cmake_prefix_path')
+[4.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.ps1'
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.dsv'
+[4.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/hook/cmake_prefix_path.sh'
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/bin'
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/lib/pkgconfig/rainbot_cpp.pc'
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/lib/python3.10/site-packages'
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_cpp/bin'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.dsv'
+[4.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.sh'
+[4.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.bash'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/rainbot_cpp/package.zsh'
+[4.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rainbot_cpp/share/colcon-core/packages/rainbot_cpp)
+[4.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rain_arm_msgs)
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs' for CMake module files
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs' for CMake config files
+[4.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_msgs', 'cmake_prefix_path')
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.ps1'
+[4.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.dsv'
+[4.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/cmake_prefix_path.sh'
+[4.873s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib'
+[4.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('rain_arm_msgs', 'ld_library_path_lib')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.dsv'
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/hook/ld_library_path_lib.sh'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/bin'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/pkgconfig/rain_arm_msgs.pc'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/lib/python3.10/site-packages'
+[4.921s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/bin'
+[4.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.ps1'
+[4.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.dsv'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.sh'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.bash'
+[4.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/rain_arm_msgs/package.zsh'
+[4.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rain_arm_msgs/share/colcon-core/packages/rain_arm_msgs)
+[4.970s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rainbot_py' with build type 'ament_python'
+[4.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_py', 'ament_prefix_path')
+[5.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/ament_prefix_path.ps1'
+[5.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/ament_prefix_path.dsv'
+[5.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/ament_prefix_path.sh'
+[5.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmanuel/rainbot_ws/src/rainbot_utils' with build type 'ament_cmake'
+[5.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmanuel/rainbot_ws/src/rainbot_utils'
+[5.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/emmanuel/rainbot_ws/src/rainbot_py'
+[6.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_utils': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_utils -- -j4 -l4
+[7.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/src/rainbot_py': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed
+[7.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_utils' returned '0': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --build /home/emmanuel/rainbot_ws/build/rainbot_utils -- -j4 -l4
+[7.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmanuel/rainbot_ws/build/rainbot_utils': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_utils
+[7.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rainbot_utils)
+[7.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/build/rainbot_utils' returned '0': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller:/home/emmanuel/rainbot_ws/install/rainbot_py:/opt/ros/humble /usr/bin/cmake --install /home/emmanuel/rainbot_ws/build/rainbot_utils
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils' for CMake module files
+[7.328s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils' for CMake config files
+[7.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_utils', 'cmake_prefix_path')
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.ps1'
+[7.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.dsv'
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.sh'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/bin'
+[7.382s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib/pkgconfig/rainbot_utils.pc'
+[7.383s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib/python3.10/site-packages'
+[7.383s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/bin'
+[7.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.ps1'
+[7.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.dsv'
+[7.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.sh'
+[7.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.bash'
+[7.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.zsh'
+[7.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rainbot_utils/share/colcon-core/packages/rainbot_utils)
+[7.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rainbot_utils)
+[7.563s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils' for CMake module files
+[7.564s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils' for CMake config files
+[7.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_utils', 'cmake_prefix_path')
+[7.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.ps1'
+[7.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.dsv'
+[7.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/hook/cmake_prefix_path.sh'
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib'
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/bin'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib/pkgconfig/rainbot_utils.pc'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/lib/python3.10/site-packages'
+[7.613s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_utils/bin'
+[7.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.ps1'
+[7.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.dsv'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.sh'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.bash'
+[7.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_utils/share/rainbot_utils/package.zsh'
+[7.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rainbot_utils/share/colcon-core/packages/rainbot_utils)
+[7.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmanuel/rainbot_ws/src/rainbot_py' returned '0': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed
+[7.766s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py' for CMake module files
+[7.767s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py' for CMake config files
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py/lib'
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py/bin'
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py/lib/pkgconfig/rainbot_py.pc'
+[7.769s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages'
+[7.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('rainbot_py', 'pythonpath')
+[7.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/pythonpath.ps1'
+[7.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/pythonpath.dsv'
+[7.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/hook/pythonpath.sh'
+[7.816s] Level 1:colcon.colcon_core.environment:checking '/home/emmanuel/rainbot_ws/install/rainbot_py/bin'
+[7.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rainbot_py)
+[7.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/package.ps1'
+[7.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/package.dsv'
+[7.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/package.sh'
+[7.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/package.bash'
+[7.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmanuel/rainbot_ws/install/rainbot_py/share/rainbot_py/package.zsh'
+[7.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmanuel/rainbot_ws/install/rainbot_py/share/colcon-core/packages/rainbot_py)
+[7.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.870s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.870s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.870s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.931s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.952s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/rainbot_ws/install/local_setup.ps1'
+[7.996s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmanuel/rainbot_ws/install/_local_setup_util_ps1.py'
+[7.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/rainbot_ws/install/setup.ps1'
+[8.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/rainbot_ws/install/local_setup.sh'
+[8.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmanuel/rainbot_ws/install/_local_setup_util_sh.py'
+[8.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/rainbot_ws/install/setup.sh'
+[8.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/rainbot_ws/install/local_setup.bash'
+[8.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/rainbot_ws/install/setup.bash'
+[8.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmanuel/rainbot_ws/install/local_setup.zsh'
+[8.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmanuel/rainbot_ws/install/setup.zsh'

@@ -8,13 +8,12 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-
-    is_sim = LaunchConfiguration('is_sim')
     
     is_sim_arg = DeclareLaunchArgument(
         'is_sim',
         default_value='True'
     )
+    is_sim = LaunchConfiguration('is_sim')
 
     moveit_config = (
         MoveItConfigsBuilder("rain_arm", package_name="rain_arm_moveit")
@@ -50,7 +49,7 @@ def generate_launch_description():
         executable="rviz2",
         name="rviz2",
         output="screen",
-        arguments=["-d", rviz_config],
+        #arguments=["-d", rviz_config],
         parameters=[
             moveit_config.robot_description,
             moveit_config.robot_description_semantic,
@@ -63,6 +62,6 @@ def generate_launch_description():
         [
             is_sim_arg,
             move_group_node, 
-            rviz_node
+           rviz_node
         ]
     )

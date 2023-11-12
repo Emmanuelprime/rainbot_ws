@@ -1,0 +1,27 @@
+[1.666s] Invoking command in '/home/emmanuel/rainbot_ws/src/rainbot_py': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed
+[2.067s] running egg_info
+[2.068s] writing ../../build/rainbot_py/rainbot_py.egg-info/PKG-INFO
+[2.068s] writing dependency_links to ../../build/rainbot_py/rainbot_py.egg-info/dependency_links.txt
+[2.069s] writing entry points to ../../build/rainbot_py/rainbot_py.egg-info/entry_points.txt
+[2.069s] writing requirements to ../../build/rainbot_py/rainbot_py.egg-info/requires.txt
+[2.071s] writing top-level names to ../../build/rainbot_py/rainbot_py.egg-info/top_level.txt
+[2.076s] reading manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+[2.080s] writing manifest file '../../build/rainbot_py/rainbot_py.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.080s] running build_py
+[2.082s] running install
+[2.082s] running install_lib
+[2.082s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.082s]   warnings.warn(
+[2.084s] running install_data
+[2.084s] running install_egg_info
+[2.087s] removing '/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.087s] Copying ../../build/rainbot_py/rainbot_py.egg-info to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages/rainbot_py-0.0.0-py3.10.egg-info
+[2.090s] running install_scripts
+[2.121s] Installing rain_parameter script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.122s] Installing rain_publisher script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.122s] Installing rain_subscriber script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.122s] Installing simple_service_client script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.122s] Installing simple_service_server script to /home/emmanuel/rainbot_ws/install/rainbot_py/lib/rainbot_py
+[2.122s] writing list of installed files to '/home/emmanuel/rainbot_ws/build/rainbot_py/install.log'
+[2.186s] Invoked command in '/home/emmanuel/rainbot_ws/src/rainbot_py' returned '0': CMAKE_PREFIX_PATH=/home/emmanuel/rainbot_ws/install/rain_arm_msgs:/home/emmanuel/rainbot_ws/install/rainbot_utils:/home/emmanuel/rainbot_ws/install/rainbot_cpp:/home/emmanuel/rainbot_ws/install/rain_arm_moveit:/home/emmanuel/rainbot_ws/install/rain_arm_description:/home/emmanuel/rainbot_ws/install/rain_arm_controller PYTHONPATH=/home/emmanuel/rainbot_ws/build/rainbot_py/prefix_override:/home/emmanuel/rainbot_ws/install/rainbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rainbot_py build --build-base /home/emmanuel/rainbot_ws/build/rainbot_py/build install --record /home/emmanuel/rainbot_ws/build/rainbot_py/install.log --single-version-externally-managed

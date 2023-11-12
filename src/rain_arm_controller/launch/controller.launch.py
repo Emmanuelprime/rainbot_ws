@@ -9,7 +9,9 @@ def generate_launch_description():
     robot_description = ParameterValue(Command([
         "xacro ",
         os.path.join(get_package_share_directory("rain_arm_description"),"urdf","rain_arm.urdf.xacro")
-        ]))
+        ]),
+        value_type=str
+        )
 
     robot_state_publisher = Node(
         package="robot_state_publisher",
